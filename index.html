@@ -63,32 +63,39 @@
 
     <h2>@nav</h2>
 
-    <nav>
-        <div>IamBrand</div>
-        <ul>
-            <li><a href="/">home</a></li>
-            <li><a href="/">products</a></li>
-            <li><a href="/">about</a></li>
+    <nav class="navigation container">
+        <div class="nav-brand">IamBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline"><a class="link link-active" href="/">home</a></li>
+            <li class="list-item-inline"><a class="link" href="/">products</a></li>
+            <li class="list-item-inline"><a class="link" href="/">about</a></li>
         </ul>
+    </nav>
         <hr>
+    
 
-        <h2>header</h2>
-        <header>
-            <img src="image/hero.svg" />
-            <h1>heading inside hero</h1>
+
+        <h2>@header</h2>
+        <header class="hero">
+            <img class="hero-img" src="image/hero.svg" />
+            <h1 class="hero-heading">sindhu the <span class="heading-inverted">web developer</span></h1>
         </header>
         <hr>
 
         <h2>@section</h3>
-        <section>
-            <h3>white section</h3>
-            <p>this a paragram contains white background</p>
+        <section class="section">
+        <div class="container container-center">
+            <h1>white section</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque molestiae vel praesentium, veritatis provident, optio quod id consectetur minima inventore iusto sunt asperiores consequatur tempora ex ut! Tempora, odit atque!</p>
+        </div>
 
         </section>
         
-        <section>
-            <h3>flui section</h3>
-            <p>this paragram will contain gray background</p>
+        <section class="section ow">
+            <div class="container container-center">
+            <h1>fluid section</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At possimus dolorum temporibus iure animi, aspernatur quas sit, nobis molestiae cum praesentium dicta veniam maxime nam velit dolor quae officia corrupti.</p>
+        </div>
         </section>
 
         <h2>@footer</h2>
@@ -104,6 +111,6 @@
 
         
 
-    </nav>
+    
 </body>
 </html>
