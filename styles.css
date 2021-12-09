@@ -9,7 +9,7 @@
 
 }
 body{
-    font-family: 'Source Sans 3', sans-serif;
+    font-family:'Times New Roman', Times, serif;
 }
 hr {
     margin: 1rem 0rem;
@@ -25,6 +25,10 @@ hr {
     margin: auto;
 
 }
+.container-center .link-primary{
+    margin: 1rem;
+   
+}
 
 /**links**/
 
@@ -34,7 +38,9 @@ hr {
 }
 .link-primary{
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    padding-top: 1rem;
     color: white;
 }
 .link-secondary{
@@ -95,7 +101,7 @@ hr {
     
 }
 .section{
-    padding: 2rem;
+    padding: 3rem;
 }
 .ow{
     background-color: var(--off-white);
