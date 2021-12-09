@@ -66,9 +66,10 @@ hr {
 .navigation .link{
     color: white;
     text-align: right;
+    font-weight: bold;
 }
 .navigation .link-active{
-    font-weight: bold;
+    font-weight: bolder;
 }
 .hero h1{
     text-align: center;
@@ -106,7 +107,11 @@ hr {
     color: white;
     border-top-right-radius: 1rem;
 }
+.footer .footer-header{
+    font-weight: bold;
+}
 .footer .link{
+    font-weight: 1rem;
     color: white;
 
 }
