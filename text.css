@@ -8,15 +8,6 @@ h1{
     display: block;
     margin: auto;
 }
-body{
-    border: 2px solid rgb(1, 8, 8);
-    border-bottom-left-radius: 1.5rem;
-    border-top-left-radius: 1.5rem;
-    border-bottom-right-radius: 1.5rem;
-    border-top-right-radius: 1.5rem;
-
-
-}
 .container-center{
     max-width: 400px;
     padding: 0.5rem;

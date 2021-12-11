@@ -124,4 +124,11 @@ hr {
 .footer ul{
     padding-inline-start: 0px;
 }
+center{
+    margin: 2rem;
+}
+nav{
+    text-align: center;
+    padding: 2rem;
+}
 
